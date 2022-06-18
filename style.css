@@ -4,6 +4,7 @@ body,html {
     font-size : 20px;
     font-family : "Lato",sans-serif;
     color : #666;
+    font-family : 'Open Sans', sans-serif;
   }
   .section-dark > p {
     font-weight : 100;
@@ -40,7 +41,7 @@ body,html {
     background-color: #282e34;
     color : #ddd;
   }
-  .ptext {
+    .ptext {
     position : absolute;
     top : 50%;
     border-radius: 5px;
@@ -61,13 +62,22 @@ body,html {
     margin : 0;
     padding : 30px;
   }
-  body{
-    font-family : 'Open Sans', sans-serif;
+  .fa{
+    color: rgb(52, 52, 52);
+    padding-right:10px;
+    width : 20px;
+    border-radius : 50%;
+    transition : all ease-in-out 200ms;
   }
-  
+  .nav-li:hover .fa{
+    color : white;
+  }
+  .fa:hover{
+    color: rgb(52, 52, 52);
+  }
   .container{
     background-color: #eb6645;
-  /*   max-width : 1000px; */
+    /* max-width : 1000px; */
   /*   justify-content: center; */
     padding : 10px;
     margin : 0;
@@ -95,10 +105,11 @@ body,html {
     padding : 0;
     margin : 0;
     float : right;
+    padding-right : 20px;
   }
   .nav-li{
       display : inline-block;
-      margin-left : 20px;
+      margin-left : 30px;
       position : relative;
   }
   a::before{
@@ -125,12 +136,12 @@ body,html {
   }
   ul a{
     text-decoration : none;
-    color : black;
+    color : rgb(0, 0, 0);
     font-weight : 450;
     transition : all ease-in-out 200ms;
   }
   ul a:hover{
-    color : white;
+    color : rgb(255, 255, 255);
   }
   .about {
     height : 200px;
@@ -144,7 +155,7 @@ body,html {
     grid-gap: 30px;
   }
   .ab1, .ab2, .ab3 {
-     list-style : none;
+    list-style : none;
     padding : 0;
     margin : 0;
   }
